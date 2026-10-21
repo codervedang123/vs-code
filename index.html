@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <hr>
+
+    <form>
+        <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter valid email address">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+        </p>
+
+        <p>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </p>
+
+        <p>
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="">-- Select Course --</option>
+                <option value="course1">Course 1</option>
+                <option value="course2">Course 2</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="contact">Contact No:</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter phone number">
+        </p>
+
+        <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" placeholder="Enter your address" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </p>
+    </form>
+
+    <hr>
+
+</body>
+</html>
